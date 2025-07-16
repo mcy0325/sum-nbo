@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     uint32_t sum = 0;
 
     if (argc < 2) {
-        printf("Excution Error!");
+        printf("Execution Error!");
         return -1;
     }
 

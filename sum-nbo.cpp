@@ -6,7 +6,7 @@ uint32_t sum_nbo(char* filename){
     FILE *fp= fopen(filename, "rb");
 
     if (fp == NULL) {
-        printf("Excution Error'%s'", filename);
+        printf("Execution Error'%s'", filename);
         return -1;
     }
 
